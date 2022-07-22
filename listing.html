@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- fontawesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- Slick Carousel -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>CarJ Listing</title>
+  </head>
+
+  <body>
+    <header id="header" class="defualt"></header>
+
+    <!-- ----Inner-Intro------ -->
+    <section class="inner-intro bg-1 bg-overlay-black-70">
+      <div class="container">
+        <div class="row text-center intro-title">
+          <div class="col-md-6 text-md-start d-inline-block">
+            <h1 class="text-white">product listing</h1>
+          </div>
+          <div class="col-md-6 text-md-end float-end">
+            <ul class="page-breadcrumb">
+              <li>
+                <a href="#"><i class="fa fa-home"></i> Home</a>
+                <i class="fa fa-angle-double-right"></i>
+              </li>
+              <li>
+                <a href="#">pages</a> <i class="fa fa-angle-double-right"></i>
+              </li>
+              <li>
+                <a href="#">listing</a></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- ----Inner-Intro End------ -->
+
+
+    <!-- -------Product Listing------- -->
+    <section class="product-listing page-section-ptb">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-4">
+              <div class="listing-sidebar">
+                <div class="widget">
+                  <div class="widget-search">
+                   <h5>Advanced Search</h5>
+                   <ul class="list-style-none">
+                     <li><i class="fa fa-star"> </i> Results Found <span class="float-end">(39)</span></li>
+                     <li><i class="fa fa-shopping-cart"> </i> Compare Vehicles <span class="float-end">(10)</span></li>
+                   </ul>
+                  </div>
+
+                  <div class="accordion">
+                    <div class="trigger">
+                        <input type="checkbox" id="checkbox-1" name="checkbox-1" />
+                        <label for="checkbox-1" class="checkbox">
+                           Year <i></i>
+                        </label>
+                        <div class="content">
+                            <ul id="item" class="items">
+                                  <li><input type="checkbox" /> All Years </li>
+                                  <li><input type="checkbox" /> 2009</li>
+                                  <li><input type="checkbox" /> 2010</li>
+                                  <li><input type="checkbox" /> 2011</li>
+                                  <li><input type="checkbox" /> 2012</li>
+                                  <li><input type="checkbox" /> 2013 </li>
+                                  <li><input type="checkbox" /> 2014</li>
+                                  <li><input type="checkbox" /> 2015</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="trigger">
+                        <input type="checkbox" id="checkbox-2" name="checkbox-2" />
+                        <label for="checkbox-2" class="checkbox">
+                            Condition <i></i>
+                        </label>
+                        <div class="content">
+                            <ul id="item" class="items">
+                                <li><input type="checkbox" /> All Conditions </li>
+                                <li><input type="checkbox" /> Brand New</li>
+                                <li><input type="checkbox" /> Slightly Used</li>
+                                <li><input type="checkbox" /> Used</li>
+                          </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="trigger">
+                        <input type="checkbox" id="checkbox-3" name="checkbox-3" />
+                        <label for="checkbox-3" class="checkbox">
+                            Body <i></i>
+                        </label>
+                        <div class="content">
+                            <ul id="item" class="items">
+                                <li><input type="checkbox" /> All Car Styles </li>
+                                <li><input type="checkbox" /> 2dr Car</li>
+                                <li><input type="checkbox" /> 4dr Car</li>
+                                <li><input type="checkbox" /> Convertible</li>
+                                <li><input type="checkbox" /> Sedan</li>
+                                <li><input type="checkbox" /> Sports Utility Vehicle </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="trigger">
+                      <input type="checkbox" id="checkbox-4" name="checkbox-4" />
+                      <label for="checkbox-4" class="checkbox">
+                          Model <i></i>
+                      </label>
+                      <div class="content">
+                          <ul id="item" class="items">
+                              <li><input type="checkbox" /> All Models </li>
+                              <li><input type="checkbox" /> 3-Series</li>
+                              <li><input type="checkbox" /> Boxster</li>
+                              <li><input type="checkbox" /> Carrera</li>
+                              <li><input type="checkbox" /> Cayennen</li>
+                              <li><input type="checkbox" /> F-type </li>
+                              <li><input type="checkbox" /> GT-R </li>
+                              <li><input type="checkbox" /> GTS</li>
+                              <li><input type="checkbox" /> M6</li>
+                              <li><input type="checkbox" /> Macan</li>
+                              <li><input type="checkbox" /> Mazda6</li>
+                              <li><input type="checkbox" /> RLX </li>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="trigger">
+                    <input type="checkbox" id="checkbox-5" name="checkbox-5" />
+                    <label for="checkbox-5" class="checkbox">
+                        Transmitions <i></i>
+                    </label>
+                    <div class="content">
+                        <ul id="item" class="items">
+                            <li><input type="checkbox" /> All Transmissions </li>
+                            <li><input type="checkbox" /> 5-Speed Manual</li>
+                            <li><input type="checkbox" /> 6-Speed Automatic</li>
+                            <li><input type="checkbox" /> 6-Speed Manual</li>
+                            <li><input type="checkbox" /> 6-Speed Semi-Auto</li>
+                            <li><input type="checkbox" /> 7-Speed PDK </li>
+                            <li><input type="checkbox" /> 8-Speed Automatic </li>
+                            <li><input type="checkbox" /> 8-Speed Tiptronic</li>
+                        </ul>
+                    </div>
+                </div>
+                 </div> 
+                 </div>
+                <div class="widget-banner">
+                  <img class="img-fluid center-block" src="img/banner.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-8">
+             <div class="sorting-options-main">
+              <div class="row">
+              <div class="col-lg-4">
+                <div class="price-slide">
+                 <div class="price">
+                  <label class="mb-2" for="amount">Price Range</label>
+                    <div class="range-slider">
+                      <span class="rangeValues amount-input" id="amount-2"></span>
+                      <input value="1000" min="1000" max="50000" step="500" type="range">
+                      <input value="50000" min="1000" max="50000" step="500" type="range">
+                    </div>
+                 </div>
+                </div>
+               </div>
+               <div class="col-lg-4">
+                <div class="price-slide">
+                 <div class="price">
+                  <label class="mb-2" for="amount">Price Range</label>
+                  <div class="range-slider">
+                    <span class="rangeValues amount-input" id="amount-2"></span>
+                    <input value="1000" min="1000" max="50000" step="500" type="range">
+                    <input value="50000" min="1000" max="50000" step="500" type="range">
+                  </div>
+                 </div>
+                </div>
+               </div>
+               <div class="col-lg-4">
+                 <div class="price-search">
+                  <span class="mb-2">Price search</span>
+                   <div class="search">
+                    <i class="fa fa-search"></i>
+                   <input type="search" class="form-control placeholder" placeholder="Search....">
+                  </div>
+                 </div>
+               </div>
+              </div>
+              <div class="row sorting-options">
+                <div class="col-lg-5">
+                 <div class="change-view-button">
+                   <a href="listing-01.html"> <i class="fa fa-th"></i> </a>
+                   <a class="active" href="#"> <i class="fa fa-list-ul"></i> </a>
+                 </div>
+                </div>
+               <div class="col-lg-3 text-end">
+                 <div class="selected-box">
+                  <div class="select"><select class="select-hidden">
+                    <option>Show  </option>
+                    <option>1</option>
+                    <option>2 </option>
+                    <option>3 </option>
+                    <option>4 </option>
+                    <option>5 </option>
+                  </select><div class="select-styled">Show  </div><ul class="select-options" style="display: none;"><li rel="Show">Show  </li><li rel="1">1</li><li rel="2">2 </li><li rel="3">3 </li><li rel="4">4 </li><li rel="5">5 </li></ul></div>
+                </div>
+               </div>
+               <div class="col-lg-4 text-end">
+                  <div class="selected-box">
+                   <div class="select"><select class="select-hidden">
+                    <option>Sort by </option>
+                    <option>Price: Lowest first</option>
+                    <option>Price: Highest first </option>
+                    <option>Product Name: A to Z </option>
+                    <option>Product Name: Z to A </option>
+                     <option>In stock</option>
+                   </select><div class="select-styled">Sort by </div><ul class="select-options" style="display: none;"><li rel="Sort by">Sort by </li><li rel="Price: Lowest first">Price: Lowest first</li><li rel="Price: Highest first">Price: Highest first </li><li rel="Product Name: A to Z">Product Name: A to Z </li><li rel="Product Name: Z to A">Product Name: Z to A </li><li rel="In stock">In stock</li></ul></div>
+                 </div>
+              </div>
+              </div>
+              </div>
+              <div class="car-grid">
+                 <div class="row">
+                  <div class="col-lg-4 col-md-12">
+                    <div class="car-item gray-bg text-center">
+                      <figure class="car-img">
+                        <img src="img/05.jpg" alt="sample29"/>
+                        <div>
+                          <a href="#"><i class="fa fa-link"></i></a>
+                          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                        </div>      
+                       </figure>
+                    </div>
+                   </div>
+                    <div class="col-lg-8 col-md-12">
+                      <div class="car-details">
+                      <div class="car-title">
+                       <a href="#">Acura Rsx</a>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</p>
+                        </div>
+                        <div class="price">
+                             <span class="old-price">$35,568</span>
+                             <span class="new-price">$32,698 </span>
+                             <a class="button red float-end" href="#">Details</a>
+                           </div>
+                         <div class="car-list">
+                           <ul class="list-inline">
+                             <li><i class="fa fa-registered"></i> 2016</li>
+                             <li><i class="fa fa-cog"></i> Manual </li>
+                             <li><i class="fa fa-shopping-cart"></i> 6,000 mi</li>
+                           </ul>
+                         </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                   <div class="car-grid">
+                 <div class="row">
+                  <div class="col-lg-4 col-md-12">
+                    <div class="car-item gray-bg text-center">
+                      <figure class="car-img">
+                        <img src="img/02.jpg" alt="sample29"/>
+                        <div>
+                          <a href="#"><i class="fa fa-link"></i></a>
+                          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                        </div>      
+                       </figure>
+                    </div>
+                   </div>
+                    <div class="col-lg-8 col-md-12">
+                      <div class="car-details">
+                      <div class="car-title">
+                       <a href="#">Lexus GS 450h</a>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</p>
+                        </div>
+                        <div class="price">
+                             <span class="old-price">$35,568</span>
+                             <span class="new-price">$32,698 </span>
+                             <a class="button red float-end" href="#">Details</a>
+                           </div>
+                         <div class="car-list">
+                           <ul class="list-inline">
+                             <li><i class="fa fa-registered"></i> 2016</li>
+                             <li><i class="fa fa-cog"></i> Manual </li>
+                             <li><i class="fa fa-shopping-cart"></i> 6,000 mi</li>
+                           </ul>
+                         </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                   <div class="car-grid">
+                 <div class="row">
+                  <div class="col-lg-4 col-md-12">
+                    <div class="car-item gray-bg text-center">
+                      <figure class="car-img">
+                        <img src="img/03.jpg" alt="sample29"/>
+                        <div>
+                          <a href="#"><i class="fa fa-link"></i></a>
+                          <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                        </div>      
+                       </figure>
+                    </div>
+                   </div>
+                    <div class="col-lg-8 col-md-12">
+                      <div class="car-details">
+                      <div class="car-title">
+                       <a href="#">GTA 5 Lowriders DLC</a>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</p>
+                        </div>
+                        <div class="price">
+                             <span class="old-price">$35,568</span>
+                             <span class="new-price">$32,698 </span>
+                             <a class="button red float-end" href="#">Details</a>
+                           </div>
+                         <div class="car-list">
+                           <ul class="list-inline">
+                             <li><i class="fa fa-registered"></i> 2016</li>
+                             <li><i class="fa fa-cog"></i> Manual </li>
+                             <li><i class="fa fa-shopping-cart"></i> 6,000 mi</li>
+                           </ul>
+                         </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                   <div class="car-grid">
+                 <div class="row">
+                  <div class="col-lg-4 col-md-12">
+                    <div class="car-item gray-bg text-center">
+                     <figure class="car-img">
+                      <img src="img/04.jpg" alt="sample29"/>
+                      <div>
+                        <a href="#"><i class="fa fa-link"></i></a>
+                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                      </div>      
+                     </figure>
+                    </div>
+                   </div>
+                    <div class="col-lg-8 col-md-12">
+                      <div class="car-details">
+                      <div class="car-title">
+                       <a href="#">Toyota avalon hybrid </a>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero numquam repellendus non voluptate. Harum blanditiis ullam deleniti.</p>
+                        </div>
+                        <div class="price">
+                             <span class="old-price">$35,568</span>
+                             <span class="new-price">$32,698 </span>
+                             <a class="button red float-end" href="#">Details</a>
+                           </div>
+                         <div class="car-list">
+                           <ul class="list-inline">
+                             <li><i class="fa fa-registered"></i> 2016</li>
+                             <li><i class="fa fa-cog"></i> Manual </li>
+                             <li><i class="fa fa-shopping-cart"></i> 6,000 mi</li>
+                           </ul>
+                         </div>
+                        </div>
+                      </div>
+                     </div>
+                   </div>
+                 <div class="pagination-nav d-flex justify-content-center">
+                     <ul class="pagination">
+                       <li><a href="#">«</a></li>
+                       <li class="active"><a href="#">1</a></li>
+                       <li><a href="#">2</a></li>
+                       <li><a href="#">3</a></li>
+                       <li><a href="#">4</a></li>
+                       <li><a href="#">5</a></li>
+                       <li><a href="#">»</a></li>
+                     </ul>
+                </div>
+                </div>
+              </div>
+            </div>
+    </section><!-- -------Product Listing End------- -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="/script/app.js"></script>
+
+  </body>
+</html>
